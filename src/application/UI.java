@@ -5,6 +5,7 @@ import chess.ChessPiece;
 public class UI {
 
 	public static void printBoard(ChessPiece[][] pieces) {
+		
 		int len = pieces.length;
 		
 		for(int i = 0; i < len; i++) {
